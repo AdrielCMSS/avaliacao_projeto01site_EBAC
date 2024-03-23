@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(86, 8, 160);
+    color: aliceblue;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header img {
+    height: 150px;
+}
+
+header h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header nav li {
+    font-family: "Micro 5", sans-serif;
+    font-style: normal;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 8px;
+    font-size: 32px;
+    
+}
+
+header nav li a {
+    color: aqua;
+    text-decoration: none;
+}
