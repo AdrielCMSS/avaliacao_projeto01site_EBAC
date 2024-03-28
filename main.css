@@ -26,13 +26,15 @@ header .container {
     justify-content: space-between;
 }
 
-
 header img {
     height: 60px;
     padding: 6px;
 }
 
-header h1{
+header h1,
+h2,
+h3,
+p {
     font-family: "Pixelify Sans", sans-serif;
     font-style: normal;
 }
@@ -43,7 +45,9 @@ header h1 {
     -webkit-text-stroke-color: rgb(31, 31, 31);
 }
 
-header nav li {
+header nav li,
+article time,
+article a {
     font-family: "Micro 5", sans-serif;
     font-style: normal;
 }
@@ -55,8 +59,83 @@ header nav li {
     font-size: 32px;
 }
 
+.consols {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consols a {
+    text-decoration: none;
+}
+
+.consols img {
+    height: 100px;
+    margin: 50px;
+    
+}
+
+h2 {
+    color: rgb(86, 8, 160);
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-top: 6px;
+}
+
 header nav li a {
     color: aqua;
     text-decoration: none;
 }
 
+.article article p {
+    color: rgb(41, 37, 37);
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    width: 100%;
+    height: 200px; 
+}
+
+.article article {
+    width: 30%;
+}
+
+article a {
+    background-color: blueviolet;
+    color: aqua;
+    text-decoration: none;
+    padding: 3px;
+}
+
+article a:hover {
+    background-color: rgb(165, 73, 250);
+    color: yellow;
+}
+
+footer {
+    padding: 8px;
+    background-color: rgb(86, 8, 160);
+    color: aliceblue;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: end;
+}
