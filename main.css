@@ -15,7 +15,7 @@ header {
     margin: 0 auto;
 }
 
-.logo {
+header .logo a {
     display: flex;
     align-items: center;
 }
@@ -40,6 +40,7 @@ p {
 }
 
 header h1 {
+    color: aliceblue;
     font-size: 42px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(31, 31, 31);
@@ -130,12 +131,27 @@ article a:hover {
     color: yellow;
 }
 
+.contact-form {
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    margin-right: 350px;    
+}
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
     background-color: rgb(86, 8, 160);
     color: aliceblue;
     bottom: 0;
     position: fixed;
     width: 100%;
-    text-align: end;
+    text-align: center;
+}
+
+footer img {
+    width: 25px;
+    margin: 3px;
 }
